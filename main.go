@@ -9,7 +9,3 @@ type User struct {
 func (u User) PrintUser() {
 	fmt.Println(u.Name)
 }
-
-func main() {
-
-}
