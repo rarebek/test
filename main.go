@@ -1,11 +1,7 @@
-package main
+package hellomod
 
 import "fmt"
 
-type User struct {
-	Name string
-}
-
-func (u User) PrintUser() {
-	fmt.Println(u.Name)
+func SayHello() {
+	fmt.Println("Hello, Go!")
 }
